@@ -15,5 +15,9 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0"
-  }
+  },
+  "name": "0x00-ES6_basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }
