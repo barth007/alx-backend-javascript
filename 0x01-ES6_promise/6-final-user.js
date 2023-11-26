@@ -11,4 +11,5 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
     value: result.status === 'fulfiled' ? result.value : result.reason,
 
   }));
+  return results;
 }
