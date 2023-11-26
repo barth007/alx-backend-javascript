@@ -1,9 +1,10 @@
 export default function signUpUser(firstName, lastName) {
   return new Promise((resolve, reject) => {
     if (firstName && lastName) {
-      resolve({ firsName: firstName, lastName });
+      const user = { firstName, lastName };
+      resolve(user);
     } else {
-      reject(Error());
+      reject(new Error());
     }
   });
 }
